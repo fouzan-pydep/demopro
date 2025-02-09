@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/home1.css' %}">
+{% endblock %}
+
+{% block body %}
+<div class="container">
+ <h2>Welcome to my BMW collection</h2>
+</div>
+<h1>Find your BMW..</h1>
+<div class="sec">
+    <div class="dr" id="dr1">
+        <div class="logo"><i class="fa-solid fa-car-on"></i></div>
+        <h2>FIND A NEW CAR</h2>
+        <button>search</button>
+    </div>
+    <div class="dr" id="dr2">
+        <div class="logo"><i class="fa-solid fa-car-burst"></i></div>
+        <h2>Book a test drive </h2>
+        <button>Request a test drive</button>
+    </div>
+   
+    <div class="dr" id="dr3">
+        <div class="logo"><i class="fa-solid fa-car"></i></div>
+        <h2>BULIT YOUR OWN</h2>
+        <button>Configura & price</button>
+    </div>
+</div>
+<div class="second">
+    <div class="thir">    <h3>BMW iX xDrive50.</h3>
+    <h4>Stay ahead of the cruve</h4>
+    <button>discover</button>
+</div>
+</div>
+<div class="forth">
+
+</div>
+<div class="five">
+    
+</div>
+
+{% endblock %}
